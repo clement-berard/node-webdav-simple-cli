@@ -1,0 +1,21 @@
+{
+  "name": "kdrive_cleanup",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard ./src",
+    "package": "ncc build src/index.js -o dist -m -C"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/ncc": "^0.36.0",
+    "commander": "^10.0.0",
+    "minimist": "^1.2.7",
+    "standard": "^17.0.0",
+    "webdav": "^4.11.2"
+  }
+}
